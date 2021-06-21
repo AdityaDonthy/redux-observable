@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 
 function App() {
   const { app } = useSelector((state) => {
-    console.log(state);
     return state.app;
   });
 
